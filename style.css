@@ -440,7 +440,7 @@ a {
 .contact {
     width: 100%;
     height: 100vh;
-    padding: 100px;
+    /* padding: 100px; */
     border: 2px solid black;
     position: relative;
 }
@@ -451,19 +451,21 @@ a {
     font-size:40px;
     border-left: 10px solid #278233;
     padding: 0px 50px;
+    margin-top: 20px;
+    margin-left: 100px;
 }
 
 
 
 .form {
     width: 600px;
-    height: 600px;
+    height: 550px;
     background-color: #51925980;
     border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
-    padding: 20px 40px;
+    padding: 30px 40px;
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
@@ -479,7 +481,7 @@ a {
 
 .label-size {
     font-size: 20px;
-    /* font-weight: bold; */
+    font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
 
