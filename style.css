@@ -441,7 +441,7 @@ a {
     width: 100%;
     height: 100vh;
     /* padding: 100px; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
     position: relative;
 }
 
@@ -521,7 +521,7 @@ a {
     width: 200px;
     height: 50px;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 20px;
     color: black;
     background-color: white;
@@ -558,6 +558,7 @@ body {
 
 footer{
     position: relative;
+    overflow: hidden;
 }
 
 .inner-footer {
@@ -565,7 +566,7 @@ footer{
     opacity: 100%;
     background-color: #F4EEA9;
     width: 100%;
-    height: 450px;
+    height: 350px;
     box-shadow: 0px -2px 10px rgb(0, 0, 0, 0.5);
     display: flex;
     gap: 100px;
@@ -613,6 +614,7 @@ footer{
     flex-direction: column;
     flex-wrap: wrap;
     height: 200px;
+    
 }
 
 .head-text{
@@ -621,7 +623,11 @@ footer{
 }
 
 .tin{
-    font-weight: 300;
+    /* font-weight: 300; */
+}
+
+li{
+    font-weight: 400;
 }
 
 
